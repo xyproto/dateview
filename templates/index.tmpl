@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <title>{{.shortname}}:{{.status}}</title>
+  <title>{{.title}}</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -38,9 +38,9 @@
 </head>
 <body>
   <div id="lbl">
-    {{.version_string}}
-    <p>Server: <font style="color: #80ffa0">{{.server}}</font></p>
-    <p>Status: <font style="color: {{.statuscolor}}">{{.status}}</font></p>
+    {{.title}}
+    <p>Easter {{.year}}: <font style="color: #80ffa0">{{.easter_date}}</font></p>
+    <p>{{.username_desc}} <font style="color: #80ffa0">{{.username}}</font></p>
   </div>
 </body>
 </html>
